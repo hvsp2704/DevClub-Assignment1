@@ -1,34 +1,63 @@
 body{
     background: #000;
-    
+    display: grid;
+    row-gap: 10px;
 }
 .odd{
     background-color: #e35f1e;
     width: 80%;
     margin: auto;
     padding: 20px;
+    border-radius: 20px;
 }
+
 .even{
     background-color: #ffd4da;
-    display : grid;
     margin: auto;
     padding: 20px;
     width: 80%;
-    grid-template: auto auto;
+    border-radius: 10px;
     
 }
 
+
 #first{
+    font-family: 'Rajdhani', sans-serif;
     display : flex;
     flex-direction: row;
     justify-content: space-evenly;
     font-size: xx-large;
+    border-radius: 10px;
+}
+#second{
+    display : flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
 
 }
-.one{
-    
+
+#item21{
+    font-size: 150pt;
+    font-family: 'The Nautigal', cursive;
+    text-align: center;
 }
 
+#item22{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 54pt;
+    text-align: center;
+    color: #c72653;
+}
+
+#item23{
+    font-size: 60pt;
+    margin-left: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
 
 a:link ,a:visited {
     color : white;
