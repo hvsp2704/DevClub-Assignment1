@@ -1,7 +1,7 @@
-body[
-    bgcolor = #000000
-    
-]
+body{
+    bgcolor : #000000
+
+}
 .odd{
     background-color: #fc2848;
     display : block
