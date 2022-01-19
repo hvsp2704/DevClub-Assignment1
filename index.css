@@ -1,24 +1,39 @@
 body{
     background: #000;
-    color : #faff96;
+    
 }
 .odd{
-    background-color: #d9574e;
-    display : grid;
+    background-color: #e35f1e;
     width: 80%;
     margin: auto;
     padding: 20px;
-    
 }
 .even{
     background-color: #ffd4da;
     display : grid;
+    margin: auto;
+    padding: 20px;
     width: 80%;
+    grid-template: auto auto;
     
 }
+
+#first{
+    display : flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: xx-large;
+
+}
+.one{
+    
+}
+
+
 a:link ,a:visited {
     color : white;
     background-color : transparent;
+    text-decoration : none;
 }
 a:hover {
     color : orange;
