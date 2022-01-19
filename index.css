@@ -1,12 +1,27 @@
 body{
     background: #000;
-
+    color : #faff96;
 }
 .odd{
-    background-color: #fc2848;
-    display : block
+    background-color: #d9574e;
+    display : grid;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    
 }
 .even{
     background-color: #ffd4da;
-    display : block
+    display : grid;
+    width: 80%;
+    
+}
+a:link ,a:visited {
+    color : white;
+    background-color : transparent;
+}
+a:hover {
+    color : orange;
+    background-color : transparent;
+
 }
