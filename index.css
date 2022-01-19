@@ -1,0 +1,10 @@
+body[
+    bgcolor = #000000
+    
+]
+.odd{
+    background-color: #fc2848;
+}
+.even{
+    background-color: #ffd4da;
+}
