@@ -4,7 +4,9 @@ body[
 ]
 .odd{
     background-color: #fc2848;
+    display : block
 }
 .even{
     background-color: #ffd4da;
+    display : block
 }
